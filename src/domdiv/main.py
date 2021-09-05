@@ -1357,12 +1357,71 @@ class CardSorter(object):
         return card.getType().getTypeNames(), self.strip_accents(card.name)
 
     def by_cost_sort_key(self, card):
-        return (
+        """
+        Enforce color order:
+        1 Action
+        2 Treasure
+        3 Curse
+        4 Victory
+        5 Event
+        6 Landmark
+        7 Way (?)
+        8 Project (?)
+        9 Ruine
+        10 Hideout
+        11 Hex (?)
+        12 Night (?)
+        13 State (?)
+        14 Boon (?)
+        99 Expansion
+        """
+        types = card.getType().getTypeNames()
+        # order of if-statements matters!
+        if "Ruins" in types:
+            type_index = 9
+        elif "Shelter" in types:
+            type_index = 10
+        elif "Event" in types:
+            type_index = 5
+        elif "Landmark" in types:
+            type_index = 6
+        elif "Way" in types:
+            type_index = 7
+        elif "Project" in types:
+            type_index = 8
+        elif "Action" in types:
+            type_index = 1
+        elif "Treasure" in types:
+            type_index = 2
+        elif "Curse" in types:
+            type_index = 3
+        elif "Victory" in types:
+            type_index = 4
+        elif "Hex" in types:
+            type_index = 11
+        elif "Night" in types:
+            type_index = 12
+        elif "State" in types:
+            type_index = 13
+        elif "Boon" in types:
+            type_index = 14
+        elif "Expansion" in types:
+            type_index = 99
+        else:
+            raise NotImplementedError(f"Unknown types {types} for card {card.name}")
+
+        x = (
             card.cardset,
             int(card.isExpansion()),
-            str(card.get_total_cost(card)),
+            self.baseIndex(card.name),
+            #card.getType().getTypeNames()[0],
+            type_index,
+            int(card.get_total_cost(card)[0]),
+            int(card.get_total_cost(card)[1]),
+            int(card.get_total_cost(card)[2]),
             self.strip_accents(card.name),
         )
+        return x
 
     @staticmethod
     def strip_accents(s):

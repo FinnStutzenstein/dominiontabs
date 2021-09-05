@@ -370,37 +370,37 @@
         "name": "Trank"
     },
     "Copper": {
-        "description": "+1 <*COIN*>",
+        "description": "1 <*COIN*>",
         "extra": "60 Karten pro Spiel.",
         "name": "Kupfer"
     },
     "Curse": {
         "description": "-1 <*VP*>",
-        "extra": "Je nach Spieleranzahl wird die folgende Anzahl an Fluchkarten offen in die Tischmitte gelegt: Bei 6 Spielern: 50 Karten, Bei 5 Spielern: 40 Karten, Bei 4 Spielern: 30 Karten, Bei 3 Spielern: 20 Karten, Bei 2 Spielern: 10 Karten",
+        "extra": "2 Spieler: 10 Karten<br>3 Spieler: 20 Karten<br>4 Spieler: 30 Karten<br>5 Spieler: 40 Karten<br>6 Spieler: 50 Karten",
         "name": "Fluch"
     },
     "Duchy": {
         "description": "3 <*VP*>",
-        "extra": "Bei 5 und 6 Spielern: 12 Herzogtümer, Bei 3 und 4 Spielern: 12 Herzogtümer, Bei 2 Spielern: 8 Herzogtümer",
+        "extra": "2 Spieler: 8 Herzogtümer<br>3+ Spieler: 12 Herzogtümer",
         "name": "Herzogtum"
     },
     "Estate": {
         "description": "1 <*VP*>",
-        "extra": "Bei 5 und 6 Spielern: 12 Anwesen, Bei 3 und 4 Spielern: 12 Anwesen, Bei 2 Spielern: 8 Anwesen",
+        "extra": "2 Spieler: 8 Anwesen<br>3+ Spieler: 12 Anwesen",
         "name": "Anwesen"
     },
     "Gold": {
-        "description": "+3 <*COIN*>",
+        "description": "3 <*COIN*>",
         "extra": "30 Karten pro Spiel.",
         "name": "Gold"
     },
     "Province": {
         "description": "6 <*VP*>",
-        "extra": "Bei 6 Spielern: 18 Provinzen, Bei 5 Spielern: 15 Provinzen, Bei 3 und 4 Spielern: 12 Provinzen, Bei 2 Spielern: 8 Provinzen",
+        "extra": "2 Spieler: 8 Provinzen<br>2 oder 3 Spieler: 12 Provinzen<br>5 Spieler: 15 Provinzen<br>6 Spieler: 18 Provinzen",
         "name": "Provinz"
     },
     "Silver": {
-        "description": "+2 <*COIN*>",
+        "description": "2 <*COIN*>",
         "extra": "40 Karten pro Spiel.",
         "name": "Silber"
     },

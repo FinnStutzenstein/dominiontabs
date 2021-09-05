@@ -1378,7 +1378,6 @@
             "dark ages"
         ],
         "cost": "1",
-        "group_tag": "Shelters",
         "group_top": true,
         "randomizer": false,
         "types": [
@@ -1490,7 +1489,6 @@
             "dark ages"
         ],
         "cost": "1",
-        "group_tag": "Shelters",
         "randomizer": false,
         "types": [
             "Action",
@@ -1503,7 +1501,6 @@
             "dark ages"
         ],
         "cost": "1",
-        "group_tag": "Shelters",
         "randomizer": false,
         "types": [
             "Victory",

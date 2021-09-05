@@ -21,3 +21,4 @@ tools/card_db
 .doit.db
 .mypy_cache/
 .tox/
+.venv/

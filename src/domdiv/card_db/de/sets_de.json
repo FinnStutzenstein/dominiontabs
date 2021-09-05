@@ -20,8 +20,8 @@
         "text_icon": "An"
     },
     "base": {
-        "set_name": "Base",
-        "set_text": "This is all the basic Victory, Treasure, and Curse cards from the <i>Dominion</i> games and its expansions. It does not include any Victory or Treasure cards that are Kingdom cards.",
+        "set_name": "Basis",
+        "set_text": "Alle normalen Punkte-, Geld-, und Fluchkarten vom <i>Dominion</i> Basisspiel und Erweiterungen. Es enthält keine Punkte- oder Geldkarten die zugleich Königreichkarten sind.",
         "text_icon": "B"
     },
     "cornucopia": {
@@ -30,7 +30,7 @@
         "text_icon": "RE"
     },
     "cornucopia extras": {
-        "set_name": "Cornucopia Extras",
+        "set_name": "Reiche Ernte Extras",
         "set_text": "",
         "text_icon": "C"
     },
